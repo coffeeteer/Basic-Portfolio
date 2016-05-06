@@ -1,18 +1,152 @@
 body {
-	background: #BADA55;
+	background: #fff;
+	width: 1000px;
+	margin: 10px auto 0 auto;
+	border: black solid 2px;
+	border-radius: 10px;
+	border-top-width: 6px;
+	border-bottom-width: 6px;
+	width: 700px;
 	/*background: #fff;*/
 }
 
+.contact-pg {
+	
+}
 
+a {
+	text-decoration: none;
+	color: green;
+	font-size: 22pt;
+	border: solid black 1px;
+	border-radius: 10px;
+	padding: 4px 8px;
+	margin: 10px 15px;
+	background-color: #EEE;
+	float: left;
 
-h1,
+}
+
+.menu {
+/*	border: solid black 2px;
+	border-spacing: 1% 2em;*/
+}
+
+a:hover {
+	color: #BADA55;
+}
+
+.port:hover {
+	color: red;
+}
+
+.port:active {
+	outline-color: yellow;
+}
+
+a:active {
+	outline-color: blue;
+}
+
+.hat {
+	width: 200px;
+	border-radius: 10px;
+	
+}
+
+.p-content {
+ 	width: 450px;
+	margin: 0 auto;
+	float: right;
+}
+
+h1 {
+	clear: both;
+	font-family: 'Sigmar One', cursive, 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	margin: 10px auto;
+	line-height: 45px;
+	font-size: 24pt;
+}
+
 h2,
 h3 {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	font-size: 19pt;
+	margin: 10px auto;
+	line-height: 20px;
 }
 
 p {
 	color: #777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 17px auto;	
+}
+
+.add_para {
+	text-indent: 10px;
+}
+
+.first_para::first-letter {
+	font-size: 200%;
+	font-family: 'Aladin', cursive;
+}
+
+.content {
+	margin: 20px;
+}
+
+#name,
+#mail {
+	margin: 15px;
+}
+
+label {
+	margin: 15px;
+}
+
+input {
+	padding-right: 150px;
+}
+
+textarea {
+	padding: ;
+}
+
+form{
+	clear: left;
+}
+
+.ur-name {
+	margin-top: 60px;
+}
+
+.mess{
+	
+}
+
+#msg {
+	position: relative;
+	left: 92px;
+	top: -15px;
+}
+
+button {
+	margin: 10px 20px;	
+	font-family: 'Aladin', cursive;
+	font-size: 14pt;
+	padding: 10px 20px;
+	border-radius: 10px;	
+}
+
+.sub_btn:active {
+	background: green;
+	color: orange;
+}
+
+.clear_btn:active {
+	background-color: red;
+	color: blue;
 }
