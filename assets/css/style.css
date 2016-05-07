@@ -189,6 +189,13 @@ button {
 	position: absolute;
 	right: 20px;
 	top: 20px;
+	margin: 20px auto;
+	padding: 10px -15px 10px 30px;
+	border: hidden;
+}
+
+.icon {
+	width: 50px;
 }
 
 .clearfix:after {
